@@ -5,7 +5,15 @@ import { HttpModule, JsonpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { DiagnosisPage  } from '../pages/diagnosis/diagnosis';
+import { TreatmentPage  } from '../pages/treatment/treatment';
+import { KnowledgePage  } from '../pages/knowledge/knowledge';
+import { SurvivalPage  } from '../pages/survival/survival';
+import { CostPage  } from '../pages/cost/cost';
+import { HeartPage  } from '../pages/heart/heart';
+import { ChartPage  } from '../pages/chart/chart';
+import { VipPage  } from '../pages/vip/vip';
+import { QuitPage  } from '../pages/quit/quit';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -14,7 +22,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    DiagnosisPage,
+    TreatmentPage,
+    KnowledgePage,
+    SurvivalPage,
+    CostPage,
+    HeartPage,
+    ChartPage,
+    VipPage,
+    QuitPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +42,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    DiagnosisPage,
+    TreatmentPage,
+    KnowledgePage,
+    SurvivalPage,
+    CostPage,
+    HeartPage,
+    ChartPage,
+    VipPage,
+    QuitPage
   ],
   providers: [
     StatusBar,
