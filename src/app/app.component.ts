@@ -13,6 +13,7 @@ import { CostPage } from '../pages/cost/cost';
 import { HeartPage } from '../pages/heart/heart';
 import { ChartPage } from '../pages/chart/chart';
 import { VipPage } from '../pages/vip/vip';
+import { TransmitPage } from '../pages/transmit/transmit';
 import { QuitPage } from '../pages/quit/quit';
 
 @Component({
@@ -31,6 +32,7 @@ export class MyApp {
   heart: any = HeartPage;
   chart: any = ChartPage;
   vip: any = VipPage;
+  transmit: any = TransmitPage;
   quit: any = QuitPage;
 
 
@@ -42,15 +44,16 @@ export class MyApp {
     splashScreen.hide();
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: '丽华抗癌问答', component: HomePage },
+      { title: '默认', component: HomePage },
       { title: '诊断', component: DiagnosisPage },
       { title: '治疗', component: TreatmentPage },
       { title: '知识', component: KnowledgePage },
       { title: '存活', component: SurvivalPage },
       { title: '费用', component: CostPage },
-      { title: '心里', component: HeartPage },
+      { title: '心理', component: HeartPage },
       { title: '闲聊', component: ChartPage },
-      { title: 'vip', component: VipPage },
+      { title: 'VIP', component: VipPage },
+      { title: '转发', component: TransmitPage },
       { title: '退出', component: QuitPage }
     
     ];
