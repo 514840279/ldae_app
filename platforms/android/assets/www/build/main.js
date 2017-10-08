@@ -424,51 +424,6 @@ ChartPage = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VipPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the VipPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var VipPage = (function () {
-    function VipPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    VipPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VipPage');
-    };
-    return VipPage;
-}());
-VipPage = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-vip',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\vip\vip.html"*/'<!--\n  Generated template for the VipPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n      <ion-title>vip</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\vip\vip.html"*/,
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-], VipPage);
-
-//# sourceMappingURL=vip.js.map
-
-/***/ }),
-
-/***/ 202:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TransmitPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
@@ -501,7 +456,7 @@ var TransmitPage = (function () {
 }());
 TransmitPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-transmit',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\transmit\transmit.html"*/'<!--\n\n  Generated template for the TransmitPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>transmit</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\transmit\transmit.html"*/,
+        selector: 'page-transmit',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\transmit\transmit.html"*/'<!--\n\n  Generated template for the TransmitPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>转发</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\transmit\transmit.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], TransmitPage);
@@ -510,7 +465,7 @@ TransmitPage = __decorate([
 
 /***/ }),
 
-/***/ 203:
+/***/ 202:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -555,13 +510,13 @@ QuitPage = __decorate([
 
 /***/ }),
 
-/***/ 204:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(222);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -569,7 +524,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 223:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -578,7 +533,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(188);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(263);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_diagnosis_diagnosis__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_treatment_treatment__ = __webpack_require__(195);
@@ -587,9 +542,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_cost_cost__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_heart_heart__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_chart_chart__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_vip_vip__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_transmit_transmit__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_quit_quit__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_vip_vip__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_transmit_transmit__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_quit_quit__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(189);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(192);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -672,7 +627,7 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 264:
+/***/ 263:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -689,9 +644,8 @@ AppModule = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_cost_cost__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_heart_heart__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_chart_chart__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_vip_vip__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_transmit_transmit__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_quit_quit__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_transmit_transmit__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_quit_quit__ = __webpack_require__(202);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -714,7 +668,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
+//import { VipPage } from '../pages/vip/vip';
 
 
 var MyApp = (function () {
@@ -731,9 +685,9 @@ var MyApp = (function () {
         this.cost = __WEBPACK_IMPORTED_MODULE_9__pages_cost_cost__["a" /* CostPage */];
         this.heart = __WEBPACK_IMPORTED_MODULE_10__pages_heart_heart__["a" /* HeartPage */];
         this.chart = __WEBPACK_IMPORTED_MODULE_11__pages_chart_chart__["a" /* ChartPage */];
-        this.vip = __WEBPACK_IMPORTED_MODULE_12__pages_vip_vip__["a" /* VipPage */];
-        this.transmit = __WEBPACK_IMPORTED_MODULE_13__pages_transmit_transmit__["a" /* TransmitPage */];
-        this.quit = __WEBPACK_IMPORTED_MODULE_14__pages_quit_quit__["a" /* QuitPage */];
+        //vip: any = VipPage;
+        this.transmit = __WEBPACK_IMPORTED_MODULE_12__pages_transmit_transmit__["a" /* TransmitPage */];
+        this.quit = __WEBPACK_IMPORTED_MODULE_13__pages_quit_quit__["a" /* QuitPage */];
         this.initializeApp();
         splashScreen.hide();
         // used for an example of ngFor and navigation
@@ -746,9 +700,9 @@ var MyApp = (function () {
             { title: '费用', component: __WEBPACK_IMPORTED_MODULE_9__pages_cost_cost__["a" /* CostPage */] },
             { title: '心理', component: __WEBPACK_IMPORTED_MODULE_10__pages_heart_heart__["a" /* HeartPage */] },
             { title: '闲聊', component: __WEBPACK_IMPORTED_MODULE_11__pages_chart_chart__["a" /* ChartPage */] },
-            { title: 'VIP', component: __WEBPACK_IMPORTED_MODULE_12__pages_vip_vip__["a" /* VipPage */] },
-            { title: '转发', component: __WEBPACK_IMPORTED_MODULE_13__pages_transmit_transmit__["a" /* TransmitPage */] },
-            { title: '退出', component: __WEBPACK_IMPORTED_MODULE_14__pages_quit_quit__["a" /* QuitPage */] }
+            //{ title: 'VIP', component: VipPage },
+            { title: '转发', component: __WEBPACK_IMPORTED_MODULE_12__pages_transmit_transmit__["a" /* TransmitPage */] },
+            { title: '退出', component: __WEBPACK_IMPORTED_MODULE_13__pages_quit_quit__["a" /* QuitPage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -779,7 +733,52 @@ MyApp = __decorate([
 
 //# sourceMappingURL=app.component.js.map
 
+/***/ }),
+
+/***/ 272:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VipPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the VipPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var VipPage = (function () {
+    function VipPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    VipPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VipPage');
+    };
+    return VipPage;
+}());
+VipPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-vip',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\vip\vip.html"*/'<!--\n  Generated template for the VipPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n      <ion-title>vip</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\vip\vip.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], VipPage);
+
+//# sourceMappingURL=vip.js.map
+
 /***/ })
 
-},[204]);
+},[203]);
 //# sourceMappingURL=main.js.map

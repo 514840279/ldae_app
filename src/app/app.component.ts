@@ -12,7 +12,7 @@ import { SurvivalPage } from '../pages/survival/survival';
 import { CostPage } from '../pages/cost/cost';
 import { HeartPage } from '../pages/heart/heart';
 import { ChartPage } from '../pages/chart/chart';
-import { VipPage } from '../pages/vip/vip';
+//import { VipPage } from '../pages/vip/vip';
 import { TransmitPage } from '../pages/transmit/transmit';
 import { QuitPage } from '../pages/quit/quit';
 
@@ -31,7 +31,7 @@ export class MyApp {
   cost: any = CostPage;
   heart: any = HeartPage;
   chart: any = ChartPage;
-  vip: any = VipPage;
+  //vip: any = VipPage;
   transmit: any = TransmitPage;
   quit: any = QuitPage;
 
@@ -52,7 +52,7 @@ export class MyApp {
       { title: '费用', component: CostPage },
       { title: '心理', component: HeartPage },
       { title: '闲聊', component: ChartPage },
-      { title: 'VIP', component: VipPage },
+      //{ title: 'VIP', component: VipPage },
       { title: '转发', component: TransmitPage },
       { title: '退出', component: QuitPage }
     
