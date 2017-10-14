@@ -14,7 +14,6 @@ import { HeartPage } from '../pages/heart/heart';
 import { ChartPage } from '../pages/chart/chart';
 //import { VipPage } from '../pages/vip/vip';
 import { TransmitPage } from '../pages/transmit/transmit';
-import { QuitPage } from '../pages/quit/quit';
 
 @Component({
   templateUrl: 'app.html'
@@ -33,30 +32,29 @@ export class MyApp {
   chart: any = ChartPage;
   //vip: any = VipPage;
   transmit: any = TransmitPage;
-  quit: any = QuitPage;
 
 
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any,icons:string}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
     splashScreen.hide();
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: '默认', component: HomePage },
-      { title: '诊断', component: DiagnosisPage },
-      { title: '治疗', component: TreatmentPage },
-      { title: '知识', component: KnowledgePage },
-      { title: '存活', component: SurvivalPage },
-      { title: '费用', component: CostPage },
-      { title: '心理', component: HeartPage },
-      { title: '闲聊', component: ChartPage },
+      { title: '默认', component: HomePage,icons:'fds' },
+      { title: '诊断', component: DiagnosisPage, icons: 'fds'},
+      { title: '治疗', component: TreatmentPage, icons: 'fds'},
+      { title: '知识', component: KnowledgePage, icons: 'fds'},
+      { title: '存活', component: SurvivalPage, icons: 'fds'},
+      { title: '费用', component: CostPage, icons: 'fds'},
+      { title: '心理', component: HeartPage, icons: 'fds'},
+      { title: '闲聊', component: ChartPage, icons: 'fds'},
       //{ title: 'VIP', component: VipPage },
-      { title: '转发', component: TransmitPage },
-      { title: '退出', component: QuitPage }
+      { title: '转发', component: TransmitPage, icons: 'fds' }
     
     ];
+    
 
   }
  
@@ -67,11 +65,16 @@ export class MyApp {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
     });
+
   }
 
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
+  }
+
+  close() {
+    this.platform.exitApp();
   }
 }

@@ -1,17 +1,26 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NavController} from 'ionic-angular';
 import { Http } from '@angular/http';
-import { LoadingController  } from 'ionic-angular';
+import { LoadingController, Slides  } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
 export class HomePage {
 
   public search:any;
   public result:any;
   icons: string;
+  @ViewChild(Slides) slides: Slides;
+  //解决切换其他页面回去轮播图不动问题
+  ionViewWillEnter() {
+    this.slides.startAutoplay();
+  }
+  ionViewWillLeave() {
+    this.slides.stopAutoplay();
+  }
   constructor(private http:Http,public navCtrl: NavController,public loadingCtrl: LoadingController) {
     this.search="";
     this.icons = 'search';

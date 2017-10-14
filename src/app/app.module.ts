@@ -14,7 +14,6 @@ import { HeartPage  } from '../pages/heart/heart';
 import { ChartPage  } from '../pages/chart/chart';
 import { VipPage  } from '../pages/vip/vip';
 import { TransmitPage } from '../pages/transmit/transmit';
-import { QuitPage  } from '../pages/quit/quit';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -31,8 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HeartPage,
     ChartPage,
     VipPage,
-    TransmitPage,
-    QuitPage
+    TransmitPage
   ],
   imports: [
     BrowserModule,
@@ -52,8 +50,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HeartPage,
     ChartPage,
     VipPage,
-    TransmitPage,
-    QuitPage
+    TransmitPage
   ],
   providers: [
     StatusBar,
