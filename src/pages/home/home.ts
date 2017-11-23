@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController} from 'ionic-angular';
 import { Http } from '@angular/http';
 import { LoadingController, Slides  } from 'ionic-angular';
+import { AutocompleteServiceProvider } from '../../providers/autocomplete-service/autocomplete-service';
 
 @Component({
   selector: 'page-home',
@@ -21,7 +22,7 @@ export class HomePage {
   ionViewWillLeave() {
     this.slides.stopAutoplay();
   }
-  constructor(private http:Http,public navCtrl: NavController,public loadingCtrl: LoadingController) {
+  constructor(private http: Http, public navCtrl: NavController, public loadingCtrl: LoadingController, public autocompleteSer: AutocompleteServiceProvider) {
     this.search="";
     this.icons = 'search';
 

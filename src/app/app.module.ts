@@ -17,6 +17,8 @@ import { TransmitPage } from '../pages/transmit/transmit';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AutoCompleteModule } from 'ionic2-auto-complete';
+import { AutocompleteServiceProvider } from '../providers/autocomplete-service/autocomplete-service';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     HttpModule,
-    JsonpModule
+    JsonpModule,
+    AutoCompleteModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -55,7 +58,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    AutocompleteServiceProvider
   ]
 })
 export class AppModule {}
