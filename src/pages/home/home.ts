@@ -30,9 +30,9 @@ export class HomePage {
 
   getSearch(e){
    
-    if(e.keyCode==13){
+   // if(e.keyCode==13){
       this.dosearch();
-    }
+   // }
 
   }
 
@@ -45,15 +45,15 @@ export class HomePage {
       let msg = this.loadingCtrl.create({
         content: '请输入要咨询的问题或关键词'//设置loading时显示的文字
       });
-      msg.present();
-      setTimeout(()=>{ msg.dismiss(); },2000);
+      //msg.present();
+      //setTimeout(()=>{ msg.dismiss(); },2000);
       return;
     }
-    let loading = this.loadingCtrl.create({
-      content: '正在为您查找最佳答案'//设置loading时显示的文字
-    });
+    //let loading = this.loadingCtrl.create({
+    //  content: '正在为您查找最佳答案'//设置loading时显示的文字
+   // });
 
-    loading.present();
+  //  loading.present();
     var that = this;
     var url = "http://998xp.vicp.net:8000/api?q="+this.search
     that.http.get(url).subscribe(
@@ -61,9 +61,9 @@ export class HomePage {
         that.result = data['_body'];
         this.search="";
         this.result = that.result;
-        loading.dismiss();
+     //   loading.dismiss();
       },function(err){
-        loading.dismiss();
+      //  loading.dismiss();
       }
     )
   }

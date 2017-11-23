@@ -19,11 +19,16 @@ export class AutocompleteServiceProvider implements AutoCompleteService {
   }
 
   getResults(keyword:string){
-    return this.http.get("https://restcountries.eu/rest/v1/name/" + keyword).map(
+     return this.http.get("http://998xp.vicp.net:8001/api?action=sug_app&q=" + keyword).map(
       result=>{
         console.log(result);
-        return result.json().filter(item => item.name.toLowerCase().startsWith(keyword.toLowerCase()))
+         var aa =  result.json().filter(item => item.name.toLowerCase().startsWith(keyword.toLowerCase()))
+         
+
+         return aa;
       }
     );
+
+   
   }
 }
