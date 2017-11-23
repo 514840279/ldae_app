@@ -44,7 +44,7 @@
       </ion-slides>
     </div>
     <ion-list>
-    <ion-auto-complete [dataProvider]="autocompleteSer"  [(ngModel)]="search" (keyup)="getSearch($event)" ></ion-auto-complete>
+    <ion-auto-complete [dataProvider]="autocompleteSer"  [(ngModel)]="search" (change)="getSearch($event)" ></ion-auto-complete>
   <!--  <button ion-button item-right tappable (click)="dosearch()" style="margin-top:-42px;"><ion-icon [name]="icons" color="twitter" (click)="dosearch()" ></ion-icon></button>-->
     </ion-list>
     <!-- end 轮播图-->
