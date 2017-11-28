@@ -43,10 +43,10 @@
         </ion-slide>
       </ion-slides>
     </div>
-    <ion-list>
-    <ion-auto-complete [dataProvider]="autocompleteSer"  [(ngModel)]="search" (change)="getSearch($event)" ></ion-auto-complete>
-  <!--  <button ion-button item-right tappable (click)="dosearch()" style="margin-top:-42px;"><ion-icon [name]="icons" color="twitter" (click)="dosearch()" ></ion-icon></button>-->
-    </ion-list>
+  <!-- <ion-list>
+   <ion-auto-complete [dataProvider]="autocompleteSer"  [(ngModel)]="search" (change)="getSearch($event)" ></ion-auto-complete>
+    
+    </ion-list>-->
     <!-- end 轮播图-->
   </ion-list>
 </ion-header>
@@ -61,11 +61,11 @@
 <!-- 底部固定 -->
 <ion-footer >
     <ion-list> 
-     
-      <!--<ion-item>
-          
-          
+      <ion-item>
         <ion-input type="text" placeholder="请输入要咨询的问题或关键词" [(ngModel)]="search" (keydown)="getSearch($event)" ></ion-input>
-      </ion-item>-->
+        <button ion-button item-right tappable (click)="dosearch()" style="margin-top:-0px;">
+          <ion-icon [name]="icons" color="twitter"></ion-icon>
+        </button>
+      </ion-item>
     </ion-list>
 </ion-footer> 
