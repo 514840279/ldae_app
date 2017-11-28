@@ -2,7 +2,6 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController} from 'ionic-angular';
 import { Http } from '@angular/http';
 import { LoadingController, Slides  } from 'ionic-angular';
-import { AutocompleteServiceProvider } from '../../providers/autocomplete-service/autocomplete-service';
 
 @Component({
   selector: 'page-home',
@@ -22,7 +21,7 @@ export class HomePage {
   ionViewWillLeave() {
     this.slides.stopAutoplay();
   }
-  constructor(private http: Http, public navCtrl: NavController, public loadingCtrl: LoadingController, public autocompleteSer: AutocompleteServiceProvider) {
+  constructor(private http: Http, public navCtrl: NavController, public loadingCtrl: LoadingController) {
     this.search="";
     this.icons = 'search';
 
@@ -36,17 +35,13 @@ export class HomePage {
 
   }
 
-
-
- 
-
   dosearch(){
     if(this.search==""){
       let msg = this.loadingCtrl.create({
         content: '请输入要咨询的问题或关键词'//设置loading时显示的文字
       });
       msg.present();
-      setTimeout(()=>{ msg.dismiss(); },2000);
+      setTimeout(()=>{ msg.dismiss(); },500);
       return;
     }
     let loading = this.loadingCtrl.create({
@@ -54,13 +49,12 @@ export class HomePage {
     });
 
     loading.present();
-    var that = this;
     var url = "http://998xp.vicp.net:8000/api?q="+this.search
-    that.http.get(url).subscribe(
+    var that = this;
+    this.http.get(url).subscribe(
       function(data){
         that.result = data['_body'];
-        console.log(that.result);
-        this.search="";
+        that.search = "";
         this.result = that.result;
         loading.dismiss();
       },function(err){
