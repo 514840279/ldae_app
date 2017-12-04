@@ -25515,7 +25515,7 @@ ion-navbar.toolbar {
 ion-auto-complete {
   overflow: hidden !important;
   display: block;
-  width: 90vw;
+  width: 100%;
   display: inline-block;
 }
 
@@ -25529,16 +25529,16 @@ ion-auto-complete .hidden {
 
 ion-auto-complete ul {
   position: absolute;
-  width: inherit;
-  margin-top: -101px;
+  width: 94%;
+  margin-top: -301px;
   background: #FFF;
   list-style-type: none;
   padding: 0px;
-  left: 16px;
+  left: 10px;
   z-index: 999;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  height: 50px;
+  height: 250px;
 }
 
 ion-auto-complete ul div {
@@ -25547,13 +25547,13 @@ ion-auto-complete ul div {
 
 ion-auto-complete ul li {
   padding: 15px;
-  float: left;
+  width: 94%;
   border-bottom: 1px solid #c1c1c1;
 }
 
 ion-auto-complete ul ion-auto-complete-item {
   height: 40px;
-  width: 100%;
+  width: 94%;
 }
 
 ion-auto-complete ul li:last-child {
@@ -25568,7 +25568,7 @@ ion-auto-complete ul li:hover {
 ion-auto-complete {
   overflow: hidden !important;
   display: block;
-  width: 90vw;
+  width: 100%;
   display: inline-block;
 }
 
@@ -25582,16 +25582,16 @@ ion-auto-complete .hidden {
 
 ion-auto-complete ul {
   position: absolute;
-  width: inherit;
-  margin-top: -101px;
+  width: 94%;
+  margin-top: -301px;
   background: #FFF;
   list-style-type: none;
   padding: 0px;
-  left: 16px;
+  left: 10px;
   z-index: 999;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  height: 50px;
+  height: 250px;
 }
 
 ion-auto-complete ul div {
@@ -25600,13 +25600,13 @@ ion-auto-complete ul div {
 
 ion-auto-complete ul li {
   padding: 15px;
-  float: left;
+  width: 94%;
   border-bottom: 1px solid #c1c1c1;
 }
 
 ion-auto-complete ul ion-auto-complete-item {
   height: 40px;
-  width: 100%;
+  width: 94%;
 }
 
 ion-auto-complete ul li:last-child {
