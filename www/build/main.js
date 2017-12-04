@@ -80,41 +80,43 @@ var HomePage = (function () {
     };
     HomePage.prototype.dosearch = function () {
         if (this.search == "") {
-            var msg = this.loadingCtrl.create({
+            var msg_1 = this.loadingCtrl.create({
                 content: '请输入要咨询的问题或关键词' //设置loading时显示的文字
             });
-            //msg.present();
-            //setTimeout(()=>{ msg.dismiss(); },2000);
+            msg_1.present();
+            setTimeout(function () { msg_1.dismiss(); }, 2000);
             return;
         }
-        //let loading = this.loadingCtrl.create({
-        //  content: '正在为您查找最佳答案'//设置loading时显示的文字
-        // });
-        //  loading.present();
+        var loading = this.loadingCtrl.create({
+            content: '正在为您查找最佳答案' //设置loading时显示的文字
+        });
+        loading.present();
         var that = this;
         var url = "http://998xp.vicp.net:8000/api?q=" + this.search;
         that.http.get(url).subscribe(function (data) {
             that.result = data['_body'];
+            console.log(that.result);
             this.search = "";
             this.result = that.result;
-            //   loading.dismiss();
+            loading.dismiss();
         }, function (err) {
-            //  loading.dismiss();
+            loading.dismiss();
         });
     };
     return HomePage;
 }());
 __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */]),
-    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */])
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */]) === "function" && _a || Object)
 ], HomePage.prototype, "slides", void 0);
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\home\home.html"*/'<!-- 头部固定 -->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>丽华抗癌问答</ion-title>\n\n  </ion-navbar>\n\n  <ion-list>\n\n    <!-- start 轮播图-->\n\n    <div class="articleHeader">\n\n      <ion-slides class="slide" [pager]="true" [loop]="true" autoplay="3000">\n\n        <!--</ion-slide>-->\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_1.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_2.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_3.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank">\n\n            <img src="./assets/img/ad_4.jpg"  style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_5.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank">\n\n              <img src="./assets/img/ad_6.jpg" style="height:120px;"/>\n\n            </a>\n\n        </ion-slide>\n\n      </ion-slides>\n\n    </div>\n\n    <ion-list>\n\n    <ion-auto-complete [dataProvider]="autocompleteSer"  [(ngModel)]="search" (change)="getSearch($event)" ></ion-auto-complete>\n\n  <!--  <button ion-button item-right tappable (click)="dosearch()" style="margin-top:-42px;"><ion-icon [name]="icons" color="twitter" (click)="dosearch()" ></ion-icon></button>-->\n\n    </ion-list>\n\n    <!-- end 轮播图-->\n\n  </ion-list>\n\n</ion-header>\n\n\n\n<!-- 内容 -->\n\n<ion-content padding> \n\n  \n\n    <ion-list > \n\n      <div [innerHtml]="result" ></div>\n\n    </ion-list>\n\n</ion-content>\n\n<!-- 底部固定 -->\n\n<ion-footer >\n\n    <ion-list> \n\n     \n\n      <!--<ion-item>\n\n          \n\n          \n\n        <ion-input type="text" placeholder="请输入要咨询的问题或关键词" [(ngModel)]="search" (keydown)="getSearch($event)" ></ion-input>\n\n      </ion-item>-->\n\n    </ion-list>\n\n</ion-footer> '/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\home\home.html"*/'<!-- 头部固定 -->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>丽华抗癌问答</ion-title>\n\n  </ion-navbar>\n\n  <ion-list>\n\n    <!-- start 轮播图-->\n\n    <div class="articleHeader">\n\n      <ion-slides class="slide" [pager]="true" [loop]="true" autoplay="3000">\n\n        <!--</ion-slide>-->\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_1.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_2.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_3.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank">\n\n            <img src="./assets/img/ad_4.jpg"  style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_5.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank">\n\n              <img src="./assets/img/ad_6.jpg" style="height:120px;"/>\n\n            </a>\n\n        </ion-slide>\n\n      </ion-slides>\n\n    </div>\n\n    <ion-list>\n\n    \n\n  <!--  <button ion-button item-right tappable (click)="dosearch()" style="margin-top:-42px;"><ion-icon [name]="icons" color="twitter" (click)="dosearch()" ></ion-icon></button>-->\n\n    </ion-list>\n\n    <!-- end 轮播图-->\n\n  </ion-list>\n\n</ion-header>\n\n\n\n<!-- 内容 -->\n\n<ion-content padding> \n\n  \n\n    <ion-list > \n\n      <div [innerHtml]="result" ></div>\n\n    </ion-list>\n\n</ion-content>\n\n<!-- 底部固定 -->\n\n<ion-footer >\n\n    <ion-list> \n\n      <ion-auto-complete [dataProvider]="autocompleteSer"  [(ngModel)]="search" (change)="getSearch($event)" ></ion-auto-complete>\n\n      <!--<ion-item>\n\n          \n\n          \n\n        <ion-input type="text" placeholder="请输入要咨询的问题或关键词" [(ngModel)]="search" (keydown)="getSearch($event)" ></ion-input>\n\n      </ion-item>-->\n\n    </ion-list>\n\n</ion-footer> '/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\home\home.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__providers_autocomplete_service_autocomplete_service__["a" /* AutocompleteServiceProvider */]])
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__providers_autocomplete_service_autocomplete_service__["a" /* AutocompleteServiceProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__providers_autocomplete_service_autocomplete_service__["a" /* AutocompleteServiceProvider */]) === "function" && _e || Object])
 ], HomePage);
 
+var _a, _b, _c, _d, _e;
 //# sourceMappingURL=home.js.map
 
 /***/ }),
@@ -147,15 +149,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
   and Angular DI.
 */
 var AutocompleteServiceProvider = (function () {
+    //public heithtp:any;
     function AutocompleteServiceProvider(http) {
         this.http = http;
         this.labelAttribute = "name";
         console.log('Hello AutocompleteServiceProvider Provider');
+        //this.heithtp="";
     }
     AutocompleteServiceProvider.prototype.getResults = function (keyword) {
         return this.http.get("http://998xp.vicp.net:8001/api?action=sug_app&q=" + keyword).map(function (result) {
-            console.log(result);
             var aa = result.json().filter(function (item) { return item.name.toLowerCase().startsWith(keyword.toLowerCase()); });
+            //console.log();
+            //var lss = result.json().length;
+            //var heithtp = "margin-top:"+(-100- lss *40)+"px"; 
             return aa;
         });
     };
@@ -206,7 +212,7 @@ var DiagnosisPage = (function () {
 }());
 DiagnosisPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-diagnosis',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\diagnosis\diagnosis.html"*/'<!--\n\n  Generated template for the DiagnosisPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>诊断</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\diagnosis\diagnosis.html"*/,
+        selector: 'page-diagnosis',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\diagnosis\diagnosis.html"*/'<!--\n\n  Generated template for the DiagnosisPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>诊断</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\diagnosis\diagnosis.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], DiagnosisPage);
@@ -251,7 +257,7 @@ var TreatmentPage = (function () {
 }());
 TreatmentPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-treatment',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\treatment\treatment.html"*/'<!--\n\n  Generated template for the TreatmentPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>治疗</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\treatment\treatment.html"*/,
+        selector: 'page-treatment',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\treatment\treatment.html"*/'<!--\n\n  Generated template for the TreatmentPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>治疗</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\treatment\treatment.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], TreatmentPage);
@@ -296,7 +302,7 @@ var KnowledgePage = (function () {
 }());
 KnowledgePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-knowledge',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\knowledge\knowledge.html"*/'<!--\n\n  Generated template for the KnowledgePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>知识</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\knowledge\knowledge.html"*/,
+        selector: 'page-knowledge',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\knowledge\knowledge.html"*/'<!--\n\n  Generated template for the KnowledgePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>知识</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\knowledge\knowledge.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], KnowledgePage);
@@ -341,7 +347,7 @@ var SurvivalPage = (function () {
 }());
 SurvivalPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-survival',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\survival\survival.html"*/'<!--\n\n  Generated template for the SurvivalPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>存活</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\survival\survival.html"*/,
+        selector: 'page-survival',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\survival\survival.html"*/'<!--\n\n  Generated template for the SurvivalPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>存活</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\survival\survival.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], SurvivalPage);
@@ -386,7 +392,7 @@ var CostPage = (function () {
 }());
 CostPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-cost',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\cost\cost.html"*/'<!--\n\n  Generated template for the CostPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>费用</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\cost\cost.html"*/,
+        selector: 'page-cost',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\cost\cost.html"*/'<!--\n\n  Generated template for the CostPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>费用</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\cost\cost.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], CostPage);
@@ -431,7 +437,7 @@ var HeartPage = (function () {
 }());
 HeartPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-heart',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\heart\heart.html"*/'<!--\n\n  Generated template for the HeartPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>心里</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\heart\heart.html"*/,
+        selector: 'page-heart',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\heart\heart.html"*/'<!--\n\n  Generated template for the HeartPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>心里</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\heart\heart.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], HeartPage);
@@ -476,7 +482,7 @@ var ChartPage = (function () {
 }());
 ChartPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-chart',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\chart\chart.html"*/'<!--\n\n  Generated template for the ChartPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>闲聊</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\chart\chart.html"*/,
+        selector: 'page-chart',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\chart\chart.html"*/'<!--\n\n  Generated template for the ChartPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>闲聊</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\chart\chart.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], ChartPage);
@@ -521,7 +527,7 @@ var TransmitPage = (function () {
 }());
 TransmitPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-transmit',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\transmit\transmit.html"*/'<!--\n\n  Generated template for the TransmitPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>转发</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\transmit\transmit.html"*/,
+        selector: 'page-transmit',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\transmit\transmit.html"*/'<!--\n\n  Generated template for the TransmitPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>转发</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\transmit\transmit.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], TransmitPage);
@@ -747,7 +753,7 @@ __decorate([
     __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
 ], MyApp.prototype, "nav", void 0);
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>丽华抗癌问答</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n  <ion-footer>\n\n    <ion-list>\n\n      <button menuClose ion-item (click)="close()">退出 </button>\n\n    </ion-list>\n\n  </ion-footer>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav> '/*ion-inline-end:"C:\Users\Administrator\myApp\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>丽华抗癌问答</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n  <ion-footer>\n\n    <ion-list>\n\n      <button menuClose ion-item (click)="close()">退出 </button>\n\n    </ion-list>\n\n  </ion-footer>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav> '/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\app\app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -792,7 +798,7 @@ var VipPage = (function () {
 }());
 VipPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-vip',template:/*ion-inline-start:"C:\Users\Administrator\myApp\src\pages\vip\vip.html"*/'<!--\n\n  Generated template for the VipPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>vip</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\myApp\src\pages\vip\vip.html"*/,
+        selector: 'page-vip',template:/*ion-inline-start:"C:\Users\Administrator\ldae_app\src\pages\vip\vip.html"*/'<!--\n\n  Generated template for the VipPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>vip</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Administrator\ldae_app\src\pages\vip\vip.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
 ], VipPage);

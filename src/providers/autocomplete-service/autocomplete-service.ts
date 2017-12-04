@@ -13,18 +13,19 @@ import { AutoCompleteService } from 'ionic2-auto-complete';
 export class AutocompleteServiceProvider implements AutoCompleteService {
 
   labelAttribute="name";
-
+  //public heithtp:any;
   constructor(public http: Http) {
     console.log('Hello AutocompleteServiceProvider Provider');
+    //this.heithtp="";
   }
 
   getResults(keyword:string){
      return this.http.get("http://998xp.vicp.net:8001/api?action=sug_app&q=" + keyword).map(
       result=>{
-        console.log(result);
          var aa =  result.json().filter(item => item.name.toLowerCase().startsWith(keyword.toLowerCase()))
-         
-
+         //console.log();
+         //var lss = result.json().length;
+         //var heithtp = "margin-top:"+(-100- lss *40)+"px"; 
          return aa;
       }
     );
