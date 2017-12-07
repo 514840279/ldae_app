@@ -10,14 +10,12 @@
       <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-      <ion-title>闲聊</ion-title>
+      <ion-title>网址</ion-title>
     </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-    <ion-list>
-      <img src="./assets/img/jingqingqidai.gif">
-    </ion-list>
+    <div [innerHtml]="result"></div>
 </ion-content>

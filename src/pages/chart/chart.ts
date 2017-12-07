@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Http } from '@angular/http';
 import {  NavController, NavParams } from 'ionic-angular';
 
 /**
@@ -13,12 +14,21 @@ import {  NavController, NavParams } from 'ionic-angular';
   templateUrl: 'chart.html',
 })
 export class ChartPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public result: any;
+  constructor(private http: Http, public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChartPage');
+    var url = "http://998xp.vicp.net:8000/link"
+    var that = this;
+    this.http.get(url).subscribe(
+      function (data) {
+        that.result = data['_body'];
+        this.result = that.result;
+      }, function (err) {
+      }
+    )
   }
 
 }

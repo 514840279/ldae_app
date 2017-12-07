@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Http } from '@angular/http';
 import { NavController, NavParams } from 'ionic-angular';
 
 /**
@@ -13,12 +14,22 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'knowledge.html',
 })
 export class KnowledgePage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public result: any;
+  constructor(private http: Http, public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad KnowledgePage');
+    var url = "http://998xp.vicp.net:8000/search"
+    var that = this;
+    this.http.get(url).subscribe(
+      function (data) {
+        console.log(data);
+        that.result = data['_body'];
+        this.result = that.result;
+      }, function (err) {
+      }
+    )
   }
 
 }
