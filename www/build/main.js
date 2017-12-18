@@ -1,1 +1,827 @@
-webpackJsonp([0],{164:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=164},196:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=196},246:function(l,n,u){"use strict";function a(l){return h._25(0,[(l()(),h._5(0,null,null,7,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var a=!0,e=l.component;return"click"===n&&(a=!1!==h._19(l,6).close()&&a),"click"===n&&(a=!1!==e.openPage(l.context.$implicit)&&a),a},wl.b,wl.a)),h._3(1097728,null,3,yl.a,[jl.a,Ol.a,h.k,h.D,[2,Pl.a]],null,null),h._22(335544320,4,{contentLabel:0}),h._22(603979776,5,{_buttons:1}),h._22(603979776,6,{_icons:1}),h._3(16384,null,0,xl.a,[],null,null),h._3(16384,null,0,Cl.a,[Tl.a],{menuClose:[0,"menuClose"]},null),(l()(),h._24(2,["\n        ","\n      "]))],function(l,n){l(n,6,0,"")},function(l,n){l(n,7,0,n.context.$implicit.title)})}function e(l){return h._25(0,[h._22(402653184,1,{nav:0}),(l()(),h._5(0,null,null,45,"ion-menu",[["role","navigation"]],null,null,null,zl.b,zl.a)),h._21(6144,null,Ll.a,null,[Vl.a]),h._3(245760,null,2,Vl.a,[Tl.a,h.k,Ol.a,ql.a,h.D,Hl.a,Rl.l,Ul.a,Ml.a],{content:[0,"content"]},null),h._22(335544320,2,{menuContent:0}),h._22(335544320,3,{menuNav:0}),(l()(),h._24(0,["\n  "])),(l()(),h._5(0,null,0,10,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n    "])),(l()(),h._5(0,null,null,6,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,Sl.b,Sl.a)),h._3(49152,null,0,Bl.a,[Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["丽华抗癌问答"])),(l()(),h._24(3,["\n    "])),(l()(),h._24(null,["\n  "])),(l()(),h._24(0,["\n\n  "])),(l()(),h._5(0,null,0,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,20).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,[[2,4]],0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,5,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h.Z(16777216,null,null,1,null,a)),h._3(802816,null,0,Xl.h,[h.N,h.J,h.r],{ngForOf:[0,"ngForOf"]},null),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n  "])),(l()(),h._24(0,["\n  "])),(l()(),h._5(0,null,0,15,"ion-footer",[],null,null,null,null,null)),h._3(16384,null,0,Yl.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n    "])),(l()(),h._5(0,null,null,11,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,7,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var a=!0,e=l.component;return"click"===n&&(a=!1!==h._19(l,42).close()&&a),"click"===n&&(a=!1!==e.close()&&a),a},wl.b,wl.a)),h._3(1097728,null,3,yl.a,[jl.a,Ol.a,h.k,h.D,[2,Pl.a]],null,null),h._22(335544320,7,{contentLabel:0}),h._22(603979776,8,{_buttons:1}),h._22(603979776,9,{_icons:1}),h._3(16384,null,0,xl.a,[],null,null),h._3(16384,null,0,Cl.a,[Tl.a],{menuClose:[0,"menuClose"]},null),(l()(),h._24(2,["退出 "])),(l()(),h._24(null,["\n    "])),(l()(),h._24(null,["\n  "])),(l()(),h._24(0,["\n\n"])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,Zl.b,Zl.a)),h._21(6144,null,Ll.a,null,[Gl.a]),h._3(4374528,[[1,4],["content",4]],0,Gl.a,[[2,El.a],[2,$l.a],Ml.a,Ol.a,ql.a,h.k,h.x,h.D,h.j,Rl.l,Ql.a,[2,ln.a],Ul.a,h.l],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null),(l()(),h._24(null,[" "]))],function(l,n){var u=n.component;l(n,3,0,h._19(n,51)),l(n,26,0,u.pages);l(n,42,0,"");l(n,51,0,"false",u.rootPage)},function(l,n){l(n,10,0,h._19(n,11)._sbPadding),l(n,19,0,h._19(n,20).statusbarPadding,h._19(n,20)._hasRefresher)})}function t(l){return h._25(0,[h._22(402653184,1,{slides:0}),(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,89,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n  "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,10).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[2,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,2,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["丽华抗癌问答"])),(l()(),h._24(3,["\n  "])),(l()(),h._24(null,["\n  "])),(l()(),h._5(0,null,null,67,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n    "])),(l()(),h._24(null,["\n    "])),(l()(),h._5(0,null,null,60,"div",[["class","articleHeader"]],null,null,null,null,null)),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,57,"ion-slides",[["autoplay","3000"],["class","slide"]],null,null,null,dn.b,dn.a)),h._3(1228800,[[1,4]],0,cn.a,[Ol.a,ql.a,h.x,[2,El.a],h.k,h.D],{autoplay:[0,"autoplay"],loop:[1,"loop"],pager:[2,"pager"]},null),(l()(),h._24(0,["\n        "])),(l()(),h._24(0,["\n        "])),(l()(),h._5(0,null,0,7,"ion-slide",[],null,null,null,gn.b,gn.a)),h._3(180224,null,0,pn.a,[h.k,h.D,cn.a],null,null),(l()(),h._24(0,["\n          "])),(l()(),h._5(0,null,0,3,"a",[["href","http://www.dudu2007.com/ldae_site/index.html"],["target","_blank"]],null,null,null,null,null)),(l()(),h._24(null,["\n            "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/ad_1.jpg"],["style","height:120px;"]],null,null,null,null,null)),(l()(),h._24(null,["\n          "])),(l()(),h._24(0,["\n        "])),(l()(),h._24(0,["\n        "])),(l()(),h._5(0,null,0,7,"ion-slide",[],null,null,null,gn.b,gn.a)),h._3(180224,null,0,pn.a,[h.k,h.D,cn.a],null,null),(l()(),h._24(0,["\n          "])),(l()(),h._5(0,null,0,3,"a",[["href","http://www.dudu2007.com/ldae_site/index.html"],["target","_blank"]],null,null,null,null,null)),(l()(),h._24(null,["\n            "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/ad_2.jpg"],["style","height:120px;"]],null,null,null,null,null)),(l()(),h._24(null,["\n          "])),(l()(),h._24(0,["\n        "])),(l()(),h._24(0,["\n        "])),(l()(),h._5(0,null,0,7,"ion-slide",[],null,null,null,gn.b,gn.a)),h._3(180224,null,0,pn.a,[h.k,h.D,cn.a],null,null),(l()(),h._24(0,["\n          "])),(l()(),h._5(0,null,0,3,"a",[["href","http://www.dudu2007.com/ldae_site/index.html"],["target","_blank"]],null,null,null,null,null)),(l()(),h._24(null,["\n            "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/ad_3.jpg"],["style","height:120px;"]],null,null,null,null,null)),(l()(),h._24(null,["\n          "])),(l()(),h._24(0,["\n        "])),(l()(),h._24(0,["\n        "])),(l()(),h._5(0,null,0,7,"ion-slide",[],null,null,null,gn.b,gn.a)),h._3(180224,null,0,pn.a,[h.k,h.D,cn.a],null,null),(l()(),h._24(0,["\n          "])),(l()(),h._5(0,null,0,3,"a",[["href","http://www.dudu2007.com/ldae_site/index.html"],["target","_blank"]],null,null,null,null,null)),(l()(),h._24(null,["\n            "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/ad_4.jpg"],["style","height:120px;"]],null,null,null,null,null)),(l()(),h._24(null,["\n          "])),(l()(),h._24(0,["\n        "])),(l()(),h._24(0,["\n        "])),(l()(),h._5(0,null,0,7,"ion-slide",[],null,null,null,gn.b,gn.a)),h._3(180224,null,0,pn.a,[h.k,h.D,cn.a],null,null),(l()(),h._24(0,["\n          "])),(l()(),h._5(0,null,0,3,"a",[["href","http://www.dudu2007.com/ldae_site/index.html"],["target","_blank"]],null,null,null,null,null)),(l()(),h._24(null,["\n            "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/ad_5.jpg"],["style","height:120px;"]],null,null,null,null,null)),(l()(),h._24(null,["\n          "])),(l()(),h._24(0,["\n        "])),(l()(),h._24(0,["\n        "])),(l()(),h._5(0,null,0,7,"ion-slide",[],null,null,null,gn.b,gn.a)),h._3(180224,null,0,pn.a,[h.k,h.D,cn.a],null,null),(l()(),h._24(0,["\n            "])),(l()(),h._5(0,null,0,3,"a",[["href","http://www.dudu2007.com/ldae_site/index.html"],["target","_blank"]],null,null,null,null,null)),(l()(),h._24(null,["\n              "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/ad_6.jpg"],["style","height:120px;"]],null,null,null,null,null)),(l()(),h._24(null,["\n            "])),(l()(),h._24(0,["\n        "])),(l()(),h._24(0,["\n      "])),(l()(),h._24(null,["\n    "])),(l()(),h._24(null,["\n  "])),(l()(),h._24(null,["\n    "])),(l()(),h._24(null,["\n  "])),(l()(),h._24(null,["\n"])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,95).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,[" \n    "])),(l()(),h._5(0,null,1,4,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,[" \n      "])),(l()(),h._5(0,null,null,0,"div",[],[[8,"innerHTML",1]],null,null,null,null)),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"])),(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,27,"ion-footer",[],null,null,null,null,null)),h._3(16384,null,0,Yl.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n    "])),(l()(),h._5(0,null,null,23,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,[" \n      "])),(l()(),h._5(0,null,null,19,"ion-item",[["class","item item-block"]],null,null,null,wl.b,wl.a)),h._3(1097728,null,3,yl.a,[jl.a,Ol.a,h.k,h.D,[2,Pl.a]],null,null),h._22(335544320,3,{contentLabel:0}),h._22(603979776,4,{_buttons:1}),h._22(603979776,5,{_icons:1}),h._3(16384,null,0,xl.a,[],null,null),(l()(),h._24(2,["\n        "])),(l()(),h._5(0,null,3,4,"ion-input",[["placeholder","请输入要咨询的问题或关键词"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"keydown"]],function(l,n,u){var a=!0,e=l.component;return"ngModelChange"===n&&(a=!1!==(e.search=u)&&a),"keydown"===n&&(a=!1!==e.getSearch(u)&&a),a},bn.b,bn.a)),h._3(671744,null,0,hn.h,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),h._21(2048,null,hn.f,null,[hn.h]),h._3(16384,null,0,hn.g,[hn.f],null,null),h._3(5423104,null,0,fn.a,[Ol.a,ql.a,jl.a,Ml.a,h.k,h.D,[2,Nl.a],[2,yl.a],[2,hn.f],Ul.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),h._24(2,["\n        "])),(l()(),h._5(0,null,4,5,"button",[["ion-button",""],["item-right",""],["style","margin-top:-0px;"],["tappable",""]],null,[[null,"click"]],function(l,n,u){var a=!0,e=l.component;return"click"===n&&(a=!1!==e.dosearch()&&a),a},tn.b,tn.a)),h._3(1097728,[[4,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),(l()(),h._24(0,["\n          "])),(l()(),h._5(0,null,0,1,"ion-icon",[["color","twitter"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{color:[0,"color"],name:[1,"name"]},null),(l()(),h._24(0,["\n        "])),(l()(),h._24(2,["\n      "])),(l()(),h._24(null,["\n    "])),(l()(),h._24(null,["\n"])),(l()(),h._24(null,[" "]))],function(l,n){var u=n.component;l(n,10,0,"");l(n,15,0,"menu");l(n,30,0,"3000",!0,!0),l(n,119,0,u.search);l(n,122,0,"text","请输入要咨询的问题或关键词");l(n,128,0,"twitter",u.icons)},function(l,n){var u=n.component;l(n,5,0,h._19(n,6)._hidden,h._19(n,6)._sbPadding),l(n,8,0,h._19(n,10).isHidden),l(n,14,0,h._19(n,15)._hidden),l(n,94,0,h._19(n,95).statusbarPadding,h._19(n,95)._hasRefresher),l(n,100,0,u.result),l(n,118,0,h._19(n,121).ngClassUntouched,h._19(n,121).ngClassTouched,h._19(n,121).ngClassPristine,h._19(n,121).ngClassDirty,h._19(n,121).ngClassValid,h._19(n,121).ngClassInvalid,h._19(n,121).ngClassPending),l(n,127,0,h._19(n,128)._hidden)})}function i(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n  "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["诊断"])),(l()(),h._24(3,["\n  "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,4,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/jingqingqidai.gif"]],null,null,null,null,null)),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher)})}function _(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n  "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["治疗"])),(l()(),h._24(3,["\n  "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,4,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/jingqingqidai.gif"]],null,null,null,null,null)),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher)})}function o(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n  "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["知识"])),(l()(),h._24(3,["\n  "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,4,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,0,"div",[],[[8,"innerHTML",1]],null,null,null,null)),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){var u=n.component;l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher),l(n,26,0,u.result)})}function r(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n    "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["存活"])),(l()(),h._24(3,["\n    "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,4,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/jingqingqidai.gif"]],null,null,null,null,null)),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher)})}function s(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n  "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n    "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["费用"])),(l()(),h._24(3,["\n  "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,4,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/jingqingqidai.gif"]],null,null,null,null,null)),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher)})}function d(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n    "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["热点"])),(l()(),h._24(3,["\n    "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,4,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n      "])),(l()(),h._5(0,null,1,0,"div",[],[[8,"innerHTML",1]],null,null,null,null)),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){var u=n.component;l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher),l(n,26,0,u.result)})}function c(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n    "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["网址"])),(l()(),h._24(3,["\n    "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,4,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,0,"div",[],[[8,"innerHTML",1]],null,null,null,null)),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){var u=n.component;l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher),l(n,26,0,u.result)})}function g(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n    "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["vip"])),(l()(),h._24(3,["\n    "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,4,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/jingqingqidai.gif"]],null,null,null,null,null)),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher)})}function p(l){return h._25(0,[(l()(),h._24(null,["\n"])),(l()(),h._5(0,null,null,20,"ion-header",[],null,null,null,null,null)),h._3(16384,null,0,Al.a,[Ol.a,h.k,h.D,[2,El.a]],null,null),(l()(),h._24(null,["\n\n    "])),(l()(),h._5(0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),h._3(49152,null,0,Wl.a,[Ml.a,[2,El.a],[2,$l.a],Ol.a,h.k,h.D],null,null),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;return"click"===n&&(a=!1!==h._19(l,9).toggle()&&a),a},tn.b,tn.a)),h._3(1097728,[[1,4]],0,_n.a,[[8,""],Ol.a,h.k,h.D],null,null),h._3(1064960,null,0,on.a,[Tl.a,[2,El.a],[2,_n.a],[2,Wl.a]],{menuToggle:[0,"menuToggle"]},null),h._3(16384,null,1,rn.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),h._22(603979776,1,{_buttons:1}),(l()(),h._24(0,["\n      "])),(l()(),h._5(0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),h._3(147456,null,0,sn.a,[Ol.a,h.k,h.D],{name:[0,"name"]},null),(l()(),h._24(0,["\n    "])),(l()(),h._24(3,["\n      "])),(l()(),h._5(0,null,3,2,"ion-title",[],null,null,null,Fl.b,Fl.a)),h._3(49152,null,0,Kl.a,[Ol.a,h.k,h.D,[2,Bl.a],[2,Wl.a]],null,null),(l()(),h._24(0,["转发"])),(l()(),h._24(3,["\n    "])),(l()(),h._24(null,["\n\n"])),(l()(),h._24(null,["\n\n\n"])),(l()(),h._5(0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],[["window","resize"]],function(l,n,u){var a=!0;return"window:resize"===n&&(a=!1!==h._19(l,24).resize()&&a),a},Jl.b,Jl.a)),h._3(4374528,null,0,Nl.a,[Ol.a,ql.a,Ul.a,h.k,h.D,Ml.a,Hl.a,h.x,[2,El.a],[2,$l.a]],null,null),(l()(),h._24(1,["\n    "])),(l()(),h._5(0,null,1,4,"ion-list",[],null,null,null,null,null)),h._3(16384,null,0,Il.a,[Ol.a,h.k,h.D,ql.a,Rl.l,Ul.a],null,null),(l()(),h._24(null,["\n      "])),(l()(),h._5(0,null,null,0,"img",[["src","./assets/img/jingqingqidai.gif"]],null,null,null,null,null)),(l()(),h._24(null,["\n    "])),(l()(),h._24(1,["\n"])),(l()(),h._24(null,["\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,h._19(n,5)._hidden,h._19(n,5)._sbPadding),l(n,7,0,h._19(n,9).isHidden),l(n,13,0,h._19(n,14)._hidden),l(n,23,0,h._19(n,24).statusbarPadding,h._19(n,24)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var b=u(52),h=u(0),f=u(2),m=u(35),k=u(43),v=u(105),D=u(106),w=function(){function l(l,n,u){this.http=l,this.navCtrl=n,this.loadingCtrl=u,this.search="",this.icons="search"}return l.prototype.ionViewWillEnter=function(){this.slides.startAutoplay()},l.prototype.ionViewWillLeave=function(){this.slides.stopAutoplay()},l.prototype.getSearch=function(l){13==l.keyCode&&this.dosearch()},l.prototype.dosearch=function(){if(""==this.search){var l=this.loadingCtrl.create({content:"请输入要咨询的问题或关键词"});return l.present(),void setTimeout(function(){l.dismiss()},500)}var n=this.loadingCtrl.create({content:"正在为您查找最佳答案"});n.present();var u="http://998xp.vicp.net:8000/api?q="+this.search,a=this;this.http.get(u).subscribe(function(l){a.result=l._body,a.search="",this.result=a.result,n.dismiss()},function(l){n.dismiss()})},l}();Object(f.__decorate)([Object(h.M)(m.i),Object(f.__metadata)("design:type","function"==typeof(y=void 0!==m.i&&m.i)&&y||Object)],w.prototype,"slides",void 0),w=Object(f.__decorate)([Object(h.i)({selector:"page-home",templateUrl:"home.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(j=void 0!==k.d&&k.d)&&j||Object,"function"==typeof(O=void 0!==m.f&&m.f)&&O||Object,"function"==typeof(P=void 0!==m.d&&m.d)&&P||Object])],w);var y,j,O,P,x=function(){function l(l,n,u){this.http=l,this.navCtrl=n,this.navParams=u}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad KnowledgePage");var l=this;this.http.get("http://998xp.vicp.net:8000/search").subscribe(function(n){console.log(n),l.result=n._body,this.result=l.result},function(l){})},l}();x=Object(f.__decorate)([Object(h.i)({selector:"page-knowledge",templateUrl:"knowledge.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(C=void 0!==k.d&&k.d)&&C||Object,"function"==typeof(T=void 0!==m.f&&m.f)&&T||Object,"function"==typeof(z=void 0!==m.g&&m.g)&&z||Object])],x);var C,T,z,L=function(){function l(l,n,u){this.http=l,this.navCtrl=n,this.navParams=u}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad HeartPage");var l=this;this.http.get("http://998xp.vicp.net:8000/hot").subscribe(function(n){l.result=n._body,this.result=l.result},function(l){})},l}();L=Object(f.__decorate)([Object(h.i)({selector:"page-heart",templateUrl:"heart.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(V=void 0!==k.d&&k.d)&&V||Object,"function"==typeof(q=void 0!==m.f&&m.f)&&q||Object,"function"==typeof(H=void 0!==m.g&&m.g)&&H||Object])],L);var V,q,H,R=function(){function l(l,n,u){this.http=l,this.navCtrl=n,this.navParams=u}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ChartPage");var l=this;this.http.get("http://998xp.vicp.net:8000/link").subscribe(function(n){l.result=n._body,this.result=l.result},function(l){})},l}();R=Object(f.__decorate)([Object(h.i)({selector:"page-chart",templateUrl:"chart.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(U=void 0!==k.d&&k.d)&&U||Object,"function"==typeof(M=void 0!==m.f&&m.f)&&M||Object,"function"==typeof(A=void 0!==m.g&&m.g)&&A||Object])],R);var U,M,A,E=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad TransmitPage")},l}();E=Object(f.__decorate)([Object(h.i)({selector:"page-transmit",templateUrl:"transmit.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(S=void 0!==m.f&&m.f)&&S||Object,"function"==typeof(B=void 0!==m.g&&m.g)&&B||Object])],E);var S,B,F=function(){function l(l,n,u){this.platform=l,this.statusBar=n,this.splashScreen=u,this.rootPage=w,this.Knowledge=x,this.heart=L,this.chart=R,this.transmit=E,this.initializeApp(),u.hide(),this.pages=[{title:"默认",component:w,icons:"fds"},{title:"知识",component:x,icons:"fds"},{title:"热点",component:L,icons:"fds"},{title:"网址",component:R,icons:"fds"}]}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleDefault(),l.splashScreen.hide()})},l.prototype.openPage=function(l){this.nav.setRoot(l.component)},l.prototype.close=function(){this.platform.exitApp()},l}();Object(f.__decorate)([Object(h.M)(m.e),Object(f.__metadata)("design:type","function"==typeof(K=void 0!==m.e&&m.e)&&K||Object)],F.prototype,"nav",void 0),F=Object(f.__decorate)([Object(h.i)({templateUrl:"app.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(W=void 0!==m.h&&m.h)&&W||Object,"function"==typeof(J=void 0!==v.a&&v.a)&&J||Object,"function"==typeof(N=void 0!==D.a&&D.a)&&N||Object])],F);var K,W,J,N,$=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad DiagnosisPage")},l}();$=Object(f.__decorate)([Object(h.i)({selector:"page-diagnosis",templateUrl:"diagnosis.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(I=void 0!==m.f&&m.f)&&I||Object,"function"==typeof(X=void 0!==m.g&&m.g)&&X||Object])],$);var I,X,Y=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad TreatmentPage")},l}();Y=Object(f.__decorate)([Object(h.i)({selector:"page-treatment",templateUrl:"treatment.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(Z=void 0!==m.f&&m.f)&&Z||Object,"function"==typeof(G=void 0!==m.g&&m.g)&&G||Object])],Y);var Z,G,Q=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad SurvivalPage")},l}();Q=Object(f.__decorate)([Object(h.i)({selector:"page-survival",templateUrl:"survival.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(ll=void 0!==m.f&&m.f)&&ll||Object,"function"==typeof(nl=void 0!==m.g&&m.g)&&nl||Object])],Q);var ll,nl,ul=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad CostPage")},l}();ul=Object(f.__decorate)([Object(h.i)({selector:"page-cost",templateUrl:"cost.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(al=void 0!==m.f&&m.f)&&al||Object,"function"==typeof(el=void 0!==m.g&&m.g)&&el||Object])],ul);var al,el,tl=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad VipPage")},l}();tl=Object(f.__decorate)([Object(h.i)({selector:"page-vip",templateUrl:"vip.html"}),Object(f.__metadata)("design:paramtypes",["function"==typeof(il=void 0!==m.f&&m.f)&&il||Object,"function"==typeof(_l=void 0!==m.g&&m.g)&&_l||Object])],tl);var il,_l,ol=u(223),rl=(u(234),function(){function l(l){this.http=l,this.labelAttribute="name",console.log("Hello AutocompleteServiceProvider Provider")}return l.prototype.getResults=function(l){return this.http.get("http://998xp.vicp.net:8001/api?action=sug_app&q="+l).map(function(n){return console.log(n),n.json().filter(function(n){return n.name.toLowerCase().startsWith(l.toLowerCase())})})},l}());rl=Object(f.__decorate)([Object(h.o)(),Object(f.__metadata)("design:paramtypes",["function"==typeof(sl=void 0!==k.d&&k.d)&&sl||Object])],rl);var sl,dl=function(){return function(){}}();dl=Object(f.__decorate)([Object(h.u)({declarations:[F,w,$,Y,x,Q,ul,L,R,tl,E],imports:[b.a,m.c.forRoot(F,{},{links:[]}),k.e,k.h,ol.a],bootstrap:[m.a],entryComponents:[F,w,$,Y,x,Q,ul,L,R,tl,E],providers:[v.a,D.a,{provide:h.l,useClass:m.b},rl]})],dl);var cl=u(67),gl=u(522),pl=u(523),bl=u(524),hl=u(525),fl=u(526),ml=u(527),kl=u(528),vl=u(529),Dl=u(530),wl=u(153),yl=u(32),jl=u(25),Ol=u(3),Pl=u(62),xl=u(72),Cl=u(125),Tl=u(19),zl=u(531),Ll=u(59),Vl=u(96),ql=u(5),Hl=u(21),Rl=u(10),Ul=u(9),Ml=u(8),Al=u(39),El=u(7),Sl=u(532),Bl=u(26),Fl=u(44),Kl=u(37),Wl=u(23),Jl=u(45),Nl=u(17),$l=u(16),Il=u(40),Xl=u(20),Yl=u(104),Zl=u(533),Gl=u(73),Ql=u(56),ln=u(34),nn=[],un=h._2({encapsulation:2,styles:nn,data:{}}),an=h._0("ng-component",F,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"ng-component",[],null,null,null,e,un)),h._3(49152,null,0,F,[ql.a,v.a,D.a],null,null)],null,null)},{},{},[]),en=u(47),tn=u(27),_n=u(15),on=u(41),rn=u(42),sn=u(33),dn=u(534),cn=u(65),gn=u(535),pn=u(101),bn=u(536),hn=u(31),fn=u(92),mn=u(95),kn=[],vn=h._2({encapsulation:2,styles:kn,data:{}}),Dn=h._0("page-home",w,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-home",[],null,null,null,t,vn)),h._3(49152,null,0,w,[k.d,$l.a,mn.a],null,null)],null,null)},{},{},[]),wn=u(14),yn=[],jn=h._2({encapsulation:2,styles:yn,data:{}}),On=h._0("page-diagnosis",$,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-diagnosis",[],null,null,null,i,jn)),h._3(49152,null,0,$,[$l.a,wn.a],null,null)],null,null)},{},{},[]),Pn=[],xn=h._2({encapsulation:2,styles:Pn,data:{}}),Cn=h._0("page-treatment",Y,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-treatment",[],null,null,null,_,xn)),h._3(49152,null,0,Y,[$l.a,wn.a],null,null)],null,null)},{},{},[]),Tn=[],zn=h._2({encapsulation:2,styles:Tn,data:{}}),Ln=h._0("page-knowledge",x,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-knowledge",[],null,null,null,o,zn)),h._3(49152,null,0,x,[k.d,$l.a,wn.a],null,null)],null,null)},{},{},[]),Vn=[],qn=h._2({encapsulation:2,styles:Vn,data:{}}),Hn=h._0("page-survival",Q,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-survival",[],null,null,null,r,qn)),h._3(49152,null,0,Q,[$l.a,wn.a],null,null)],null,null)},{},{},[]),Rn=[],Un=h._2({encapsulation:2,styles:Rn,data:{}}),Mn=h._0("page-cost",ul,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-cost",[],null,null,null,s,Un)),h._3(49152,null,0,ul,[$l.a,wn.a],null,null)],null,null)},{},{},[]),An=[],En=h._2({encapsulation:2,styles:An,data:{}}),Sn=h._0("page-heart",L,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-heart",[],null,null,null,d,En)),h._3(49152,null,0,L,[k.d,$l.a,wn.a],null,null)],null,null)},{},{},[]),Bn=[],Fn=h._2({encapsulation:2,styles:Bn,data:{}}),Kn=h._0("page-chart",R,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-chart",[],null,null,null,c,Fn)),h._3(49152,null,0,R,[k.d,$l.a,wn.a],null,null)],null,null)},{},{},[]),Wn=[],Jn=h._2({encapsulation:2,styles:Wn,data:{}}),Nn=h._0("page-vip",tl,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-vip",[],null,null,null,g,Jn)),h._3(49152,null,0,tl,[$l.a,wn.a],null,null)],null,null)},{},{},[]),$n=[],In=h._2({encapsulation:2,styles:$n,data:{}}),Xn=h._0("page-transmit",E,function(l){return h._25(0,[(l()(),h._5(0,null,null,1,"page-transmit",[],null,null,null,p,In)),h._3(49152,null,0,E,[$l.a,wn.a],null,null)],null,null)},{},{},[]),Yn=u(146),Zn=u(117),Gn=u(119),Qn=u(143),lu=u(58),nu=u(218),uu=u(69),au=u(64),eu=u(127),tu=u(89),iu=u(132),_u=u(142),ou=u(138),ru=u(217),su=u(144),du=u(126),cu=u(145),gu=h._1(dl,[cl.b],function(l){return h._16([h._17(512,h.j,h.X,[[8,[gl.a,pl.a,bl.a,hl.a,fl.a,ml.a,kl.a,vl.a,Dl.a,an,Dn,On,Cn,Ln,Hn,Mn,Sn,Kn,Nn,Xn]],[3,h.j],h.v]),h._17(5120,h.t,h._15,[[3,h.t]]),h._17(4608,Xl.k,Xl.j,[h.t]),h._17(5120,h.b,h._6,[]),h._17(5120,h.r,h._12,[]),h._17(5120,h.s,h._13,[]),h._17(4608,b.c,b.s,[Xl.c]),h._17(6144,h.H,null,[b.c]),h._17(4608,b.f,Yn.a,[]),h._17(5120,b.d,function(l,n,u,a){return[new b.l(l),new b.p(n),new b.o(u,a)]},[Xl.c,Xl.c,Xl.c,b.f]),h._17(4608,b.e,b.e,[b.d,h.x]),h._17(135680,b.n,b.n,[Xl.c]),h._17(4608,b.m,b.m,[b.e,b.n]),h._17(6144,h.F,null,[b.m]),h._17(6144,b.q,null,[b.n]),h._17(4608,h.K,h.K,[h.x]),h._17(4608,b.h,b.h,[Xl.c]),h._17(4608,b.j,b.j,[Xl.c]),h._17(4608,hn.k,hn.k,[]),h._17(4608,hn.c,hn.c,[]),h._17(4608,k.c,k.c,[]),h._17(4608,k.j,k.b,[]),h._17(5120,k.l,k.n,[]),h._17(4608,k.k,k.k,[k.c,k.j,k.l]),h._17(4608,k.i,k.a,[]),h._17(5120,k.d,k.o,[k.k,k.i]),h._17(4608,k.q,k.q,[]),h._17(4608,k.f,k.m,[k.q,k.j]),h._17(5120,k.g,k.p,[k.f,k.i]),h._17(4608,Zn.a,Zn.a,[Ml.a,Ol.a]),h._17(4608,Gn.a,Gn.a,[Ml.a,Ol.a]),h._17(4608,Qn.a,Qn.a,[]),h._17(4608,jl.a,jl.a,[]),h._17(4608,lu.a,lu.a,[ql.a]),h._17(4608,Hl.a,Hl.a,[Ol.a,ql.a,h.x,Ul.a]),h._17(4608,mn.a,mn.a,[Ml.a,Ol.a]),h._17(5120,Xl.f,nu.b,[Xl.q,[2,Xl.a],Ol.a]),h._17(4608,Xl.e,Xl.e,[Xl.f]),h._17(5120,uu.b,uu.d,[Ml.a,uu.a]),h._17(5120,ln.a,ln.b,[Ml.a,uu.b,Xl.e,au.b,h.j]),h._17(4608,eu.a,eu.a,[Ml.a,Ol.a,ln.a]),h._17(4608,tu.a,tu.a,[Ml.a,Ol.a]),h._17(4608,iu.a,iu.a,[Ml.a,Ol.a,ln.a]),h._17(4608,_u.a,_u.a,[Ol.a,ql.a,Ul.a,Ml.a,Rl.l]),h._17(4608,ou.a,ou.a,[Ml.a,Ol.a]),h._17(4608,Ql.a,Ql.a,[ql.a,Ol.a]),h._17(4608,v.a,v.a,[]),h._17(4608,D.a,D.a,[]),h._17(4608,rl,rl,[k.d]),h._17(512,Xl.b,Xl.b,[]),h._17(512,h.l,ru.a,[]),h._17(256,Ol.b,{},[]),h._17(1024,su.a,su.b,[]),h._17(1024,ql.a,ql.b,[b.b,su.a,h.x]),h._17(1024,Ol.a,Ol.c,[Ol.b,ql.a]),h._17(512,Ul.a,Ul.a,[ql.a]),h._17(512,Tl.a,Tl.a,[]),h._17(512,Ml.a,Ml.a,[Ol.a,ql.a,[2,Tl.a]]),h._17(512,Rl.l,Rl.l,[Ml.a]),h._17(256,uu.a,{links:[]},[]),h._17(512,h.h,h.h,[]),h._17(512,du.a,du.a,[h.h]),h._17(1024,au.b,au.c,[du.a,h.q]),h._17(1024,h.c,function(l,n,u,a,e,t,i,_,o,r,s,d,c,g){return[b.r(l,n),cu.a(u),Qn.b(a,e),_u.b(t,i,_,o,r),au.d(s,d,c,g)]},[[2,b.i],[2,h.w],Ol.a,ql.a,Ul.a,Ol.a,ql.a,Ul.a,Ml.a,Rl.l,Ol.a,uu.a,au.b,h.x]),h._17(512,h.d,h.d,[[2,h.c]]),h._17(131584,h._4,h._4,[h.x,h.Y,h.q,h.l,h.j,h.d]),h._17(2048,h.f,null,[h._4]),h._17(512,h.e,h.e,[h.f]),h._17(512,b.a,b.a,[[3,b.a]]),h._17(512,hn.j,hn.j,[]),h._17(512,hn.d,hn.d,[]),h._17(512,hn.i,hn.i,[]),h._17(512,nu.a,nu.a,[]),h._17(512,k.e,k.e,[]),h._17(512,k.h,k.h,[]),h._17(512,ol.a,ol.a,[]),h._17(512,dl,dl,[]),h._17(256,cl.a,F,[]),h._17(256,Xl.a,"/",[])])});Object(h.R)(),Object(b.k)().bootstrapModuleFactory(gu)}},[246]);
+webpackJsonp([0],{
+
+/***/ 140:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 140;
+
+/***/ }),
+
+/***/ 183:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 183;
+
+/***/ }),
+
+/***/ 229:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(44);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var HomePage = (function () {
+    function HomePage(http, navCtrl, loadingCtrl) {
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.loadingCtrl = loadingCtrl;
+        this.search = "";
+        this.icons = 'search';
+    }
+    //解决切换其他页面回去轮播图不动问题
+    HomePage.prototype.ionViewWillEnter = function () {
+        this.slides.startAutoplay();
+    };
+    HomePage.prototype.ionViewWillLeave = function () {
+        this.slides.stopAutoplay();
+    };
+    HomePage.prototype.getSearch = function (e) {
+        if (e.keyCode == 13) {
+            this.dosearch();
+        }
+    };
+    HomePage.prototype.dosearch = function () {
+        if (this.search == "") {
+            var msg_1 = this.loadingCtrl.create({
+                content: '请输入要咨询的问题或关键词' //设置loading时显示的文字
+            });
+            msg_1.present();
+            setTimeout(function () { msg_1.dismiss(); }, 500);
+            return;
+        }
+        var loading = this.loadingCtrl.create({
+            content: '正在为您查找最佳答案' //设置loading时显示的文字
+        });
+        loading.present();
+        var url = "http://998xp.vicp.net:8000/api?q=" + this.search;
+        var that = this;
+        this.http.get(url).subscribe(function (data) {
+            that.result = data['_body'];
+            that.search = "";
+            this.result = that.result;
+            loading.dismiss();
+        }, function (err) {
+            loading.dismiss();
+        });
+    };
+    return HomePage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Slides */])
+], HomePage.prototype, "slides", void 0);
+HomePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-home',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\home\home.html"*/'<!-- 头部固定 -->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>丽华抗癌问答</ion-title>\n\n  </ion-navbar>\n\n  <ion-list>\n\n    <!-- start 轮播图-->\n\n    <div class="articleHeader">\n\n      <ion-slides class="slide" [pager]="true" [loop]="true" autoplay="3000">\n\n        <!--</ion-slide>-->\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_1.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_2.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_3.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank">\n\n            <img src="./assets/img/ad_4.jpg"  style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n          <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank" >\n\n            <img src="./assets/img/ad_5.jpg" style="height:120px;"/>\n\n          </a>\n\n        </ion-slide>\n\n        <ion-slide>\n\n            <a href="http://www.dudu2007.com/ldae_site/index.html" target="_blank">\n\n              <img src="./assets/img/ad_6.jpg" style="height:120px;"/>\n\n            </a>\n\n        </ion-slide>\n\n      </ion-slides>\n\n    </div>\n\n  <!-- <ion-list>\n\n   <ion-auto-complete [dataProvider]="autocompleteSer"  [(ngModel)]="search" (change)="getSearch($event)" ></ion-auto-complete>\n\n    \n\n    </ion-list>-->\n\n    <!-- end 轮播图-->\n\n  </ion-list>\n\n</ion-header>\n\n\n\n<!-- 内容 -->\n\n<ion-content padding> \n\n    <ion-list > \n\n      <div [innerHtml]="result" ></div>\n\n    </ion-list>\n\n</ion-content>\n\n<!-- 底部固定 -->\n\n<ion-footer >\n\n    <ion-list> \n\n      <ion-item>\n\n        <ion-input type="text" placeholder="请输入要咨询的问题或关键词" [(ngModel)]="search" (keydown)="getSearch($event)" ></ion-input>\n\n        <button ion-button item-right tappable (click)="dosearch()" style="margin-top:-0px;">\n\n          <ion-icon [name]="icons" color="twitter"></ion-icon>\n\n        </button>\n\n      </ion-item>\n\n    </ion-list>\n\n</ion-footer> '/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\home\home.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* LoadingController */]])
+], HomePage);
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 230:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return KnowledgePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the KnowledgePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var KnowledgePage = (function () {
+    function KnowledgePage(http, navCtrl, navParams) {
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    KnowledgePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad KnowledgePage');
+        var url = "http://998xp.vicp.net:8000/search";
+        var that = this;
+        this.http.get(url).subscribe(function (data) {
+            console.log(data);
+            that.result = data['_body'];
+            this.result = that.result;
+        }, function (err) {
+        });
+    };
+    return KnowledgePage;
+}());
+KnowledgePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-knowledge',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\knowledge\knowledge.html"*/'<!--\n\n  Generated template for the KnowledgePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>知识</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content >\n\n    <iframe data-tap-disabled="true" style="height:100%;width:100%;margin:0px;padding:0px;" src="http://998xp.vicp.net:8000/search"></iframe>\n\n  \n\n   \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\knowledge\knowledge.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+], KnowledgePage);
+
+//# sourceMappingURL=knowledge.js.map
+
+/***/ }),
+
+/***/ 231:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeartPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the HeartPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var HeartPage = (function () {
+    function HeartPage(http, navCtrl, navParams) {
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    HeartPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad HeartPage');
+        var url = "http://998xp.vicp.net:8000/hot";
+        var that = this;
+        this.http.get(url).subscribe(function (data) {
+            that.result = data['_body'];
+            this.result = that.result;
+        }, function (err) {
+        });
+    };
+    return HeartPage;
+}());
+HeartPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-heart',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\heart\heart.html"*/'<!--\n\n  Generated template for the HeartPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>热点</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content >\n\n      <iframe data-tap-disabled="true" style="height:100%;width:100%;margin:0px;padding:0px;" src="http://998xp.vicp.net:8000/hot"></iframe>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\heart\heart.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+], HeartPage);
+
+//# sourceMappingURL=heart.js.map
+
+/***/ }),
+
+/***/ 232:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChartPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the ChartPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ChartPage = (function () {
+    function ChartPage(http, navCtrl, navParams) {
+        this.http = http;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ChartPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ChartPage');
+        var url = "http://998xp.vicp.net:8000/link";
+        var that = this;
+        this.http.get(url).subscribe(function (data) {
+            that.result = data['_body'];
+            this.result = that.result;
+        }, function (err) {
+        });
+    };
+    return ChartPage;
+}());
+ChartPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-chart',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\chart\chart.html"*/'<!--\n\n  Generated template for the ChartPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>网址</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content >\n\n  <iframe data-tap-disabled="true" style="height:100%;width:100%;margin:0px;padding:0px;" src="http://998xp.vicp.net:8000/link"></iframe>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\chart\chart.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */]])
+], ChartPage);
+
+//# sourceMappingURL=chart.js.map
+
+/***/ }),
+
+/***/ 233:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TransmitPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the TransmitPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var TransmitPage = (function () {
+    function TransmitPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    TransmitPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TransmitPage');
+    };
+    return TransmitPage;
+}());
+TransmitPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-transmit',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\transmit\transmit.html"*/'<!--\n\n  Generated template for the TransmitPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n      <ion-title>转发</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-list>\n\n      <img src="./assets/img/jingqingqidai.gif">\n\n    </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\transmit\transmit.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], TransmitPage);
+
+//# sourceMappingURL=transmit.js.map
+
+/***/ }),
+
+/***/ 256:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(261);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 261:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_diagnosis_diagnosis__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_treatment_treatment__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_knowledge_knowledge__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_survival_survival__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_cost_cost__ = __webpack_require__(308);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_heart_heart__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_chart_chart__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_vip_vip__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_transmit_transmit__ = __webpack_require__(233);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_ionic2_auto_complete__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_autocomplete_service_autocomplete_service__ = __webpack_require__(579);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_diagnosis_diagnosis__["a" /* DiagnosisPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_treatment_treatment__["a" /* TreatmentPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_knowledge_knowledge__["a" /* KnowledgePage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_survival_survival__["a" /* SurvivalPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_cost_cost__["a" /* CostPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_heart_heart__["a" /* HeartPage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_chart_chart__["a" /* ChartPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_vip_vip__["a" /* VipPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_transmit_transmit__["a" /* TransmitPage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
+                links: []
+            }),
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["c" /* JsonpModule */],
+            __WEBPACK_IMPORTED_MODULE_17_ionic2_auto_complete__["a" /* AutoCompleteModule */]
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
+            __WEBPACK_IMPORTED_MODULE_6__pages_diagnosis_diagnosis__["a" /* DiagnosisPage */],
+            __WEBPACK_IMPORTED_MODULE_7__pages_treatment_treatment__["a" /* TreatmentPage */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_knowledge_knowledge__["a" /* KnowledgePage */],
+            __WEBPACK_IMPORTED_MODULE_9__pages_survival_survival__["a" /* SurvivalPage */],
+            __WEBPACK_IMPORTED_MODULE_10__pages_cost_cost__["a" /* CostPage */],
+            __WEBPACK_IMPORTED_MODULE_11__pages_heart_heart__["a" /* HeartPage */],
+            __WEBPACK_IMPORTED_MODULE_12__pages_chart_chart__["a" /* ChartPage */],
+            __WEBPACK_IMPORTED_MODULE_13__pages_vip_vip__["a" /* VipPage */],
+            __WEBPACK_IMPORTED_MODULE_14__pages_transmit_transmit__["a" /* TransmitPage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_15__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_16__ionic_native_splash_screen__["a" /* SplashScreen */],
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] },
+            __WEBPACK_IMPORTED_MODULE_18__providers_autocomplete_service_autocomplete_service__["a" /* AutocompleteServiceProvider */]
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 298:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_knowledge_knowledge__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_heart_heart__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_chart_chart__ = __webpack_require__(232);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_transmit_transmit__ = __webpack_require__(233);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+// 引用
+
+//import { DiagnosisPage } from '../pages/diagnosis/diagnosis';
+//import { TreatmentPage } from '../pages/treatment/treatment';
+
+//import { SurvivalPage } from '../pages/survival/survival';
+//import { CostPage } from '../pages/cost/cost';
+
+
+//import { VipPage } from '../pages/vip/vip';
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        // 使用
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        //diagnosis: any = DiagnosisPage;
+        //treatment: any = TreatmentPage;
+        this.Knowledge = __WEBPACK_IMPORTED_MODULE_5__pages_knowledge_knowledge__["a" /* KnowledgePage */];
+        //survival: any = SurvivalPage;
+        //cost: any = CostPage;
+        this.heart = __WEBPACK_IMPORTED_MODULE_6__pages_heart_heart__["a" /* HeartPage */];
+        this.chart = __WEBPACK_IMPORTED_MODULE_7__pages_chart_chart__["a" /* ChartPage */];
+        //vip: any = VipPage;
+        this.transmit = __WEBPACK_IMPORTED_MODULE_8__pages_transmit_transmit__["a" /* TransmitPage */];
+        this.initializeApp();
+        splashScreen.hide();
+        // used for an example of ngFor and navigation
+        this.pages = [
+            { title: '默认', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */], icons: 'fds' },
+            // { title: '诊断', component: DiagnosisPage, icons: 'fds'},
+            // { title: '治疗', component: TreatmentPage, icons: 'fds'},
+            { title: '知识', component: __WEBPACK_IMPORTED_MODULE_5__pages_knowledge_knowledge__["a" /* KnowledgePage */], icons: 'fds' },
+            // { title: '存活', component: SurvivalPage, icons: 'fds'},
+            // { title: '费用', component: CostPage, icons: 'fds'},
+            { title: '热点', component: __WEBPACK_IMPORTED_MODULE_6__pages_heart_heart__["a" /* HeartPage */], icons: 'fds' },
+            { title: '网址', component: __WEBPACK_IMPORTED_MODULE_7__pages_chart_chart__["a" /* ChartPage */], icons: 'fds' },
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        this.nav.setRoot(page.component);
+    };
+    MyApp.prototype.close = function () {
+        this.platform.exitApp();
+    };
+    return MyApp;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
+], MyApp.prototype, "nav", void 0);
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>丽华抗癌问答</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n  <ion-footer>\n    <ion-list>\n      <button menuClose ion-item (click)="close()">退出 </button>\n    </ion-list>\n  </ion-footer>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav> '/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\app\app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 305:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DiagnosisPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the DiagnosisPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DiagnosisPage = (function () {
+    function DiagnosisPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    DiagnosisPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DiagnosisPage');
+    };
+    return DiagnosisPage;
+}());
+DiagnosisPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-diagnosis',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\diagnosis\diagnosis.html"*/'<!--\n  Generated template for the DiagnosisPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>诊断</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <ion-list>\n      <img src="./assets/img/jingqingqidai.gif">\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\diagnosis\diagnosis.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], DiagnosisPage);
+
+//# sourceMappingURL=diagnosis.js.map
+
+/***/ }),
+
+/***/ 306:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TreatmentPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the TreatmentPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var TreatmentPage = (function () {
+    function TreatmentPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    TreatmentPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TreatmentPage');
+    };
+    return TreatmentPage;
+}());
+TreatmentPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-treatment',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\treatment\treatment.html"*/'<!--\n  Generated template for the TreatmentPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>治疗</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <ion-list>\n      <img src="./assets/img/jingqingqidai.gif">\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\treatment\treatment.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], TreatmentPage);
+
+//# sourceMappingURL=treatment.js.map
+
+/***/ }),
+
+/***/ 307:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SurvivalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the SurvivalPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SurvivalPage = (function () {
+    function SurvivalPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    SurvivalPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SurvivalPage');
+    };
+    return SurvivalPage;
+}());
+SurvivalPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-survival',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\survival\survival.html"*/'<!--\n  Generated template for the SurvivalPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n      <ion-title>存活</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <ion-list>\n      <img src="./assets/img/jingqingqidai.gif">\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\survival\survival.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], SurvivalPage);
+
+//# sourceMappingURL=survival.js.map
+
+/***/ }),
+
+/***/ 308:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CostPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CostPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CostPage = (function () {
+    function CostPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CostPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CostPage');
+    };
+    return CostPage;
+}());
+CostPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-cost',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\cost\cost.html"*/'<!--\n  Generated template for the CostPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>费用</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <ion-list>\n      <img src="./assets/img/jingqingqidai.gif">\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\cost\cost.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], CostPage);
+
+//# sourceMappingURL=cost.js.map
+
+/***/ }),
+
+/***/ 309:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VipPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the VipPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var VipPage = (function () {
+    function VipPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    VipPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VipPage');
+    };
+    return VipPage;
+}());
+VipPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-vip',template:/*ion-inline-start:"C:\Users\wang\wth\ldae_app\src\pages\vip\vip.html"*/'<!--\n  Generated template for the VipPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n    <ion-navbar>\n      <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n      <ion-title>vip</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <ion-list>\n      <img src="./assets/img/jingqingqidai.gif">\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"C:\Users\wang\wth\ldae_app\src\pages\vip\vip.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], VipPage);
+
+//# sourceMappingURL=vip.js.map
+
+/***/ }),
+
+/***/ 579:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AutocompleteServiceProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(244);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the AutocompleteServiceProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var AutocompleteServiceProvider = (function () {
+    function AutocompleteServiceProvider(http) {
+        this.http = http;
+        this.labelAttribute = "name";
+        console.log('Hello AutocompleteServiceProvider Provider');
+    }
+    AutocompleteServiceProvider.prototype.getResults = function (keyword) {
+        return this.http.get("http://998xp.vicp.net:8001/api?action=sug_app&q=" + keyword).map(function (result) {
+            console.log(result);
+            var aa = result.json().filter(function (item) { return item.name.toLowerCase().startsWith(keyword.toLowerCase()); });
+            return aa;
+        });
+    };
+    return AutocompleteServiceProvider;
+}());
+AutocompleteServiceProvider = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], AutocompleteServiceProvider);
+
+//# sourceMappingURL=autocomplete-service.js.map
+
+/***/ })
+
+},[256]);
+//# sourceMappingURL=main.js.map
