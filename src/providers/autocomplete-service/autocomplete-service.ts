@@ -22,11 +22,21 @@ export class AutocompleteServiceProvider implements AutoCompleteService {
   getResults(keyword:string){
      return this.http.get("http://998xp.vicp.net:8001/api?action=sug_app&q=" + keyword).map(
       result=>{
-         var aa =  result.json().filter(item => item.name.toLowerCase().startsWith(keyword.toLowerCase()))
-         //console.log();
+
+
+         var aa =  result.json().filter(item =>
+           
+           item.name.toLowerCase()
+        )
+
+         console.log(aa.length);
          //var lss = result.json().length;
          //var heithtp = "margin-top:"+(-100- lss *40)+"px"; 
-         return aa;
+         if(aa.length==5){
+           return aa;
+         }else{
+           return "";
+         }
       }
     );
 
