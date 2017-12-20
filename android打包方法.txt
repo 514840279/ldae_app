@@ -1,0 +1,70 @@
+# 第一步 签名只生成一次 
+$keytool -genkey -alias LDAE -keyalg RSA -validity 20000 -keystore ldae.keystore
+ 
+ 输入密钥库口令:
+密钥库口令太短 - 至少必须为 6 个字符
+输入密钥库口令: ldaekey
+再次输入新口令:
+您的名字与姓氏是什么?
+  [Unknown]:  wang
+您的组织单位名称是什么?
+  [Unknown]:  ldae
+您的组织名称是什么?
+  [Unknown]:  ldae
+您所在的城市或区域名称是什么?
+  [Unknown]:  大连
+您所在的省/市/自治区名称是什么?
+  [Unknown]:  沙河口
+该单位的双字母国家/地区代码是什么?
+  [Unknown]:  zh-CN
+CN=wang, OU=ldae, O=ldae, L=大连, ST=沙河口, C=zh-CN是否正确?
+  [否]:  y
+
+  
+# 第二步 查看信息并没有什么用 
+$keytool -list -v -keystore ldae.keystore -storepass ldaekey
+
+
+密钥库类型: JKS
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: ldae
+创建日期: 2017-12-20
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=wang, OU=ldae, O=ldae, L=大连, ST=沙河口, C=zh-CN
+发布者: CN=wang, OU=ldae, O=ldae, L=大连, ST=沙河口, C=zh-CN
+序列号: 4a0391a2
+有效期开始日期: Wed Dec 20 19:28:02 CST 2017, 截止日期: Thu Sep 22 19:28:02 CST 2072
+证书指纹:
+         MD5: 30:2C:B1:15:20:68:10:AA:EE:54:EE:70:4F:BA:C0:88
+         SHA1: EF:1C:EF:77:B5:F3:21:63:B1:5C:EF:3B:66:AF:80:4E:09:DB:5F:97
+         SHA256: EB:98:45:EA:5C:DB:25:E4:6B:BB:42:7E:DA:27:70:26:39:84:2A:84:8F:7B:15:CF:80:EA:A6:4B:39:E5:52:5A
+         签名算法名称: SHA256withRSA
+         版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 7D B1 4A 2C 23 DB CC 6A   C2 FE 54 7B 2A 43 7A B6  ..J,#..j..T.*Cz.
+0010: 4E B8 99 F6                                        N...
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+# 第三步 每次发布时需要反复执行的 生成未签名文件
+$ ionic cordova  build android --release
+# 输入密钥库口令 进行签名
+$  jarsigner -verbose -keystore ldae.keystore -signedjar ldae_kc2017_app_1.0.apk C:/Users/wang/wth/ldae_app/platforms/android/build/outputs/apk/android-release-unsigned.apk  LDAE
+输入密钥库的密码短语: ldaekey
+
+
