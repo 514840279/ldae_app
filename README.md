@@ -24,3 +24,6 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+# 安装
+ionic cordova platform add android
+ionic serve

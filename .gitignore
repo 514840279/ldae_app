@@ -1,7 +1,9 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 /node_modules/
-/plantforms/android/
-/plantforms/ios/
+/platforms/android/
+/platforms/ios/
 /www/
 
+package-lock.json
+ldae_kc2017_app_1.2.apk
