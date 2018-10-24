@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.starter" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>丽华抗癌</name>
-    <description>丽华抗癌问答app/您的智能选择/依托于大数据分析快速定位推荐给您最正确的答案</description>
+    <name>纳税信用</name>
+    <description>纳税信用推荐给您最正确的答案/纳税信用是成都数是成都数据大赛专用项目/属于丽华数据分析团队成果</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">丽华数据</author>
     <content src="index.html" />
     <access origin="*" />
